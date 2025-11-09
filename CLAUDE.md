@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Multi-brand casino affiliate website showcasing Hong Kong entertainment group partner platforms (BC8, CEO8, HKONE, JDM88, LFC8, ROLEX88, TOP88, GT88). Static HTML site with bilingual support (Chinese/English). Deployed on Cloudflare Pages with clean URL routing.
+Multi-brand casino affiliate website showcasing Hong Kong entertainment group partner platforms (bc88, CEO8, HKONE, JDM88, LFC8, ROLEX88, TOP88, GT88). Static HTML site with bilingual support (Chinese/English). Deployed on Cloudflare Pages with clean URL routing.
 
 ## Architecture
 
@@ -22,11 +22,11 @@ The site is structured for Cloudflare Pages, where each directory's `index.html`
   - `styles/app.css` - Main stylesheet (~262KB, built/compiled CSS)
   - `js/app.js` - Main application JavaScript (~1.1MB, built/compiled)
   - `js/main.js` - Custom scripts (card shuffling, random online counts)
-  - `images/` - Shared images (includes company logos like `companies/bc8.webp`)
+  - `images/` - Shared images (includes company logos like `companies/bc88.webp`)
   - `fonts/` - Web fonts
 
 **Brand Directories (Chinese pages):**
-- `bc8/index.html` - BC8 Chinese page
+- `bc8/index.html` - bc88 Chinese page
 - `ceo8/index.html` - CEO8 Chinese page
 - `hkone/index.html` - HKONE Chinese page
 - `jdm88/index.html` - JDM88 Chinese page
@@ -36,7 +36,7 @@ The site is structured for Cloudflare Pages, where each directory's `index.html`
 - `gt88/index.html` - GT88 Chinese page
 
 **English Brand Directories:**
-- `bc8en/index.html` - BC8 English page
+- `bc8en/index.html` - bc88 English page
 - `ceo8en/index.html` - CEO8 English page
 - `hkoneen/index.html` - HKONE English page
 - `jdm88en/index.html` - JDM88 English page
@@ -54,8 +54,8 @@ The site is structured for Cloudflare Pages, where each directory's `index.html`
 
 **Bilingual Support:**
 - Each brand has separate directories for Chinese and English versions
-- Chinese pages: `/brand/index.html` (e.g., `/bc8/index.html`)
-- English pages: `/branden/index.html` (e.g., `/bc8en/index.html`)
+- Chinese pages: `/brand/index.html` (e.g., `/bc88/index.html`)
+- English pages: `/branden/index.html` (e.g., `/bc88en/index.html`)
 - Language switcher in header toggles between `/brand` and `/branden` routes
 - Content structure identical between versions, only text differs
 - CSS classes differentiate language-specific styling (e.g., `cn-corner-ribbon__label` vs `en-corner-ribbon__label`)
@@ -101,18 +101,18 @@ When updating pages across all brands:
 - This duplication allows the same page to be served at both `/` (root) and `/partnership`
 - The English partnership page is separate at `/partnershipen/index.html`
 
-### BC8 Special Notes
+### bc88 Special Notes
 
-BC8 is a unique brand with special handling:
+bc88 is a unique brand with special handling:
 
-1. **No Self-Reference:** BC8 company pages do NOT display BC8 itself in the company cards section
-2. **Not Yet on Other Pages:** BC8 has not been added to other company pages yet (future enhancement)
-3. **When Adding BC8 to Other Pages:**
-   - Determine the BC8 referral link (format: `https://bc8domain.com/RFXXXXXXXX`)
-   - Add BC8 promo card to all other brand pages
+1. **No Self-Reference:** bc88 company pages do NOT display bc88 itself in the company cards section
+2. **Not Yet on Other Pages:** bc88 has not been added to other company pages yet (future enhancement)
+3. **When Adding bc88 to Other Pages:**
+   - Determine the bc88 referral link (format: `https://bc88domain.com/RFXXXXXXXX`)
+   - Add bc88 promo card to all other brand pages
    - Follow the same card structure as other companies
    - Include promotional offers (registration bonus, VIP rewards, etc.)
-4. **GT88 Exclusion:** GT88 is excluded from BC8 pages but shown on other brand pages
+4. **GT88 Exclusion:** GT88 is excluded from bc88 pages but shown on other brand pages
 
 ### Asset Updates
 
