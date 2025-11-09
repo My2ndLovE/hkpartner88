@@ -26,7 +26,7 @@ The site is structured for Cloudflare Pages, where each directory's `index.html`
   - `fonts/` - Web fonts
 
 **Brand Directories (Chinese pages):**
-- `bc8/index.html` - bc88 Chinese page
+- `bc88/index.html` - bc88 Chinese page
 - `ceo8/index.html` - CEO8 Chinese page
 - `hkone/index.html` - HKONE Chinese page
 - `jdm88/index.html` - JDM88 Chinese page
@@ -36,7 +36,7 @@ The site is structured for Cloudflare Pages, where each directory's `index.html`
 - `gt88/index.html` - GT88 Chinese page
 
 **English Brand Directories:**
-- `bc8en/index.html` - bc88 English page
+- `bc88en/index.html` - bc88 English page
 - `ceo8en/index.html` - CEO8 English page
 - `hkoneen/index.html` - HKONE English page
 - `jdm88en/index.html` - JDM88 English page
